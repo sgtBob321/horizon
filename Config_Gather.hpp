@@ -34,9 +34,16 @@ class CfgGather {
             item = "";
             zoneSize = 30;
         };
+
+        class shrooms {
+            amount = 3;
+            zones[] = { "shrooms_1" };
+            item = "";
+            zoneSize = 30;
+        };
 			
 		//custom
-		
+
 		class mushroomm_unprocessed {
             amount = 3;
             zones[] = { "mushroom_1" };
@@ -45,7 +52,7 @@ class CfgGather {
             perk = "perk_gatherLSD";
             zoneSize = 30;
         };
-		
+
 		class chemicalbarrels {
             amount = 3;
             zones[] = { "ecstacy_1" };
@@ -54,7 +61,7 @@ class CfgGather {
             perk = "";
             zoneSize = 30;
         };
-		
+
 		class sugarU
 		{
 			amount = 3;
@@ -62,7 +69,7 @@ class CfgGather {
 			item = "";
             zoneSize = 30;
 		};
-		
+
 		class tobaccoU
 		{
 			amount = 3;
@@ -70,28 +77,28 @@ class CfgGather {
 			item = "";
             zoneSize = 30;
 		};
-		
+
 		class riceU {
             amount = 3;
             zones[] = { "rice_1" };
             item = "";
             zoneSize = 30;
         };
-		
+
 		class hops {
             amount = 3;
             zones[] = { "hops_1" };
             item = "";
             zoneSize = 30;
         };
-		
+
 		class rye {
             amount = 3;
             zones[] = { "rye_1" };
             item = "";
             zoneSize = 30;
         };
-		
+
 		class yeast {
             amount = 3;
             zones[] = { "yeast_1" };
@@ -174,7 +181,7 @@ Example 2:
 */
 
     class Minerals {
-		
+
 		//Custom
 
         class copper_unrefined {
@@ -232,7 +239,7 @@ Example 2:
             mined[] = { "oil_unprocessed" };
             zoneSize = 30;
         };
-		
+
 		class platinum_uncut {
             amount = 2;
             zones[] = { "platinum_mine" };
