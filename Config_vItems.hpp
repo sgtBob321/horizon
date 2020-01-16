@@ -51,6 +51,13 @@ class VirtualShops {
         items[] = { "waterBottle", "cprKit", "codeCracker", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "blastingcharge", "zipties", "blindfold" };
     };
 
+    class vehicle_shop
+         name = "STR_Shops_Vehicle_Parts";
+         side = "civ";
+         conditions = "";
+         items[] = { "windows", "engine", "brakes", "wheels" };
+    };
+
 	 class bounty {
         name = "STR_Shops_Market";
         side = "civ";
@@ -1457,47 +1464,47 @@ class VirtualItems {
 		illegal = true;
 		edible = -1;
 		icon = "images\icons\craft\gunpowder.paa";
-	};  //craftend
+	}; 
 
   class windows {
     variable = "windows";
     displayName = "STR_Item_window";
     weight = 3;
     buyPrice = 2000;
-    sellPrice = 6000;
+    sellPrice = 1000;
     illegal = false;
     edible = -1;
     icon = "images\icons\craft\car_window.paa";
-  };  //craftend
+  };
 
   class engine {
     variable = "engine";
     displayName = "STR_Item_engine";
     weight = 5;
     buyPrice = 5000;
-    sellPrice = 9000;
+    sellPrice = 3000;
     illegal = false;
     edible = -1;
     icon = "images\icons\craft\engine.paa";
-  };  //craftend
+  };
 
   class brakes {
     variable = "brakes";
     displayName = "STR_Item_brakes";
     weight = 2;
     buyPrice = 3000;
-    sellPrice = 5000;
+    sellPrice = 1000;
     illegal = false;
     edible = -1;
     icon = "images\icons\craft\brakes.paa";
-  };  //craftend
+  };
 
   class wheels {
     variable = "wheels";
     displayName = "STR_Item_wheel";
     weight = 4;
     buyPrice = 3000;
-    sellPrice = 4000;
+    sellPrice = 1000;
     illegal = false;
     edible = -1;
     icon = "images\icons\craft\wheels.paa";
