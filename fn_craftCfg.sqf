@@ -37,6 +37,7 @@ switch(_craft) do
     case "vehicle":
     {
 		_return = [
+				["ivory_190e_taxi",["wheels",4,"engine",1,"brakes",4,"windows",6]]
 			];
     };
 
