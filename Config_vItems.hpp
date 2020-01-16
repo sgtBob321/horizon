@@ -13,7 +13,7 @@ class VirtualShops {
         name = "STR_Shops_Market";
         side = "civ";
         conditions = "";
-        items[] = { "rice", "axe", "sugar", "tobacco", "goldcoin", "timber", "cloth", "pepsi", "cocaCola", "monsterEnergy", "doritos", "shittynoodles", "kfc", "easterEggs", "beer", "whiskey", "moonshine", "waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "toolkit", "fuelFull", "peach", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
+        items[] = { "rice", "axe", "sugar", "tobacco", "goldcoin", "timber", "cloth", "pepsi", "cocaCola", "monsterEnergy", "doritos", "shittynoodles", "kfc", "easterEggs", "beer", "whiskey", "moonshine", "waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "toolkit", "fuelFull", "peach", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw", "steel_pipe" };
     };
 
     class med_market {
@@ -1464,7 +1464,7 @@ class VirtualItems {
 		illegal = true;
 		edible = -1;
 		icon = "images\icons\craft\gunpowder.paa";
-	}; 
+	};
 
   class windows {
     variable = "windows";
@@ -1508,5 +1508,15 @@ class VirtualItems {
     illegal = false;
     edible = -1;
     icon = "images\icons\craft\wheels.paa";
+  };
+
+  class steelpipe {
+    variable = "steel_pipe";
+    displayName = "STR_Item_Steel_Pipe";
+    weight = 6;
+    buyPrice = 3000;
+    sellPrice = 1000;
+    illegal = false;
+    edible = -1;
+    icon = "";
   };  //craftend
-};
