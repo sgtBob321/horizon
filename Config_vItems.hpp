@@ -6,7 +6,7 @@
 *            in any combination. For example:
 *                "call life_coplevel && license_civ_someLicense"
 *            This will also let you call any other function.
-*/
+*/ test
 class VirtualShops {
     //Virtual Shops
     class market {
@@ -29,14 +29,14 @@ class VirtualShops {
         conditions = "license_civ_rebel";
         items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "blastingcharge", "zipties" };
     };
-	
+
 	class southgov {
         name = "STR_Shops_Market";
         side = "civ";
         conditions = "license_civ_southgov";
         items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "blastingcharge", "zipties" };
     };
-	
+
 	class northgov {
         name = "STR_Shops_Market";
         side = "civ";
@@ -50,7 +50,7 @@ class VirtualShops {
         conditions = "";
         items[] = { "waterBottle", "cprKit", "codeCracker", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "blastingcharge", "zipties", "blindfold" };
     };
-	
+
 	 class bounty {
         name = "STR_Shops_Market";
         side = "civ";
@@ -164,7 +164,7 @@ class VirtualShops {
 */
 class VirtualItems {
     //Virtual Items
-	
+
 	class gpstracker {
         variable = "gpstracker";
         displayName = "STR_Item_gpstracker";
@@ -175,7 +175,7 @@ class VirtualItems {
         edible = -1;
         icon = "images\icons\ico_gps.paa";
     };
-	
+
 	class dogwhistle {
         variable = "dogwhistle";
         displayName = "STR_Item_dogwhistle";
@@ -186,7 +186,7 @@ class VirtualItems {
         edible = -1;
         icon = "images\icons\ico_dogwhistle.paa";
     };
-	
+
 	class ecstacy {
         variable = "ecstacy";
         displayName = "STR_Item_EcstacyP";
@@ -208,7 +208,7 @@ class VirtualItems {
         edible = -1;
         icon = "images\icons\ico_marijuana.paa";
     };
-	
+
 	//Custom Food/Water
     class doritos {
         variable = "doritos";
@@ -220,7 +220,7 @@ class VirtualItems {
         edible = 10;
         icon = "images\icons\ico_doritos.paa";
     };
-	
+
 	class zipties {
         variable = "zipties";
         displayName = "STR_Item_ZipTies";
@@ -231,7 +231,7 @@ class VirtualItems {
         edible = -1;
         icon = "images\icons\ziptie.paa";
     };
-	
+
 	class blindfold {
         variable = "blindfold";
         displayName = "STR_Item_Blindfold";
@@ -242,7 +242,7 @@ class VirtualItems {
         edible = -1;
         icon = "images\icons\blindfold.paa";
     };
-	
+
 	class codeCracker {
         variable = "codeCracker";
         displayName = "STR_Item_codeCracker";
@@ -253,7 +253,7 @@ class VirtualItems {
         edible = -1;
         icon = "images\icons\codeCracker.paa";
     };
-	
+
 	class panicbutton {
         variable = "panicbutton";
         displayName = "STR_Item_panicbutton";
@@ -263,7 +263,7 @@ class VirtualItems {
         illegal = false;
         edible = -1;
         icon = "images\icons\ico_panicbutton.paa";
-    };  
+    };
 
     class pepsi {
         variable = "pepsi";
@@ -331,7 +331,7 @@ class VirtualItems {
         icon = "images\icons\ico_easterEggs.paa";
     };
 
-    
+
     //end food.drink
 
     //alchohol
@@ -458,7 +458,7 @@ class VirtualItems {
         edible = -1;
         icon = "images\icons\ico_goldBar.paa";
     };
-	
+
 	class handcuffs {
         variable = "handcuffs";
         displayName = "STR_Item_cuff";
@@ -468,8 +468,8 @@ class VirtualItems {
         illegal = false;
         edible = -1;
         icon = "images\icons\cuffs.paa";
-    };	
-	
+    };
+
     class keys {
         variable = "keys";
         displayName = "STR_Item_key";
@@ -480,7 +480,7 @@ class VirtualItems {
         edible = -1;
         icon = "images\icons\keys.paa";
     };
-	
+
 	class cprKit {
         variable = "cprKit";
         displayName = "STR_Item_CPRMediKit";
@@ -490,8 +490,8 @@ class VirtualItems {
         illegal = false;
         edible = -1;
         icon = "images\icons\ico_defib.paa";
-    }; 
-	
+    };
+
 	class morphine {
         variable = "morphine";
         displayName = "STR_Item_Morphine";
@@ -1136,7 +1136,7 @@ class VirtualItems {
         edible = 100;
         icon = "images\icons\ico_muttonLeg.paa";
     };
-	
+
 	//new resouces
 	class sugarU {
 		variable = "sugarU";
@@ -1148,7 +1148,7 @@ class VirtualItems {
 		edible = -1;
 		icon = "";
 	};
-	
+
 	class sugar {
 		variable = "sugar";
 		displayName = "STR_Item_sugar";
@@ -1159,7 +1159,7 @@ class VirtualItems {
 		edible = -1;
 		icon = "";
 	};
-	
+
 	class tobaccoU {
 		variable = "tobaccoU";
 		displayName = "STR_Item_tobaccoU";
@@ -1170,7 +1170,7 @@ class VirtualItems {
 		edible = -1;
 		icon = "";
 	};
-	
+
 	class tobacco {
 		variable = "tobacco";
 		displayName = "STR_Item_tobacco";
@@ -1181,7 +1181,7 @@ class VirtualItems {
 		edible = -1;
 		icon = "";
 	};
-	
+
 	class riceU {
 		variable = "riceU";
 		displayName = "STR_Item_RiceU";
@@ -1203,7 +1203,7 @@ class VirtualItems {
         edible = -1;
         icon = "";
     };
-	
+
 	class yeast {
         variable = "yeast";
         displayName = "STR_Item_YeastU";
@@ -1214,7 +1214,7 @@ class VirtualItems {
         edible = -1;
         icon = "";
     };
-	
+
 	class hops {
         variable = "hops";
         displayName = "STR_Item_HopsU";
@@ -1225,7 +1225,7 @@ class VirtualItems {
         edible = -1;
         icon = "";
     };
-	
+
 	class rye {
         variable = "rye";
         displayName = "STR_Item_RyeU";
@@ -1236,9 +1236,9 @@ class VirtualItems {
         edible = -1;
         icon = "";
     };
-	
+
 	//craft items
-	
+
 	class timber {
         variable = "timber";
         displayName = "STR_Item_Timber";
@@ -1359,7 +1359,7 @@ class VirtualItems {
 		edible = -1;
 		icon = "images\icons\craft\rubber.paa";
 	};
-	
+
 	class goldcoin {
 		variable = "goldcoin";
 		displayName = "STR_Item_goldcoin";
