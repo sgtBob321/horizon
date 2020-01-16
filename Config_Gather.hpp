@@ -41,7 +41,7 @@ class CfgGather {
             item = "";
             zoneSize = 30;
         };
-			
+
 		//custom
 
 		class mushroomm_unprocessed {
@@ -237,6 +237,14 @@ Example 2:
             zones[] = { "oil_field_1", "oil_field_2" };
             item = "pickaxe";
             mined[] = { "oil_unprocessed" };
+            zoneSize = 30;
+        };
+
+        class uranium {
+            amount = 3;
+            zones[] = { "uranium_1"};
+            item = "pickaxe";
+            mined[] = { "uranium" };
             zoneSize = 30;
         };
 
