@@ -37,7 +37,6 @@ switch(_craft) do
     case "vehicle":
     {
 		_return = [
-				["ivory_190e_taxi",["wheels",4,"engine",1,"brakes",4,"windows",6]]
 			];
     };
 
@@ -79,11 +78,7 @@ switch(_craft) do
 				["blastingcharge",["cloth",4,"C4",5,"trigger",1]],
 				["goldenbarz3",["goldcoin",63,"waterBottle",7,"pliers",1,"salt_refined",13]],
 				["storagesmall",["steel",10,"iron_refined",8]],
-				["windows",["sand",5]],
 				["steelpipe",["steel",2]],
-				["engine",["steel",10,"oil_processed",3]],
-				["brakes",["steel",3,]],
-				["wheels",["rubber",4,"steel",5]]
       ];
 	};
 
