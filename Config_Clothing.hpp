@@ -13,7 +13,7 @@
 *   Clothing classnames can be found here: https://community.bistudio.com/wiki/Arma_3_CfgWeapons_Equipment
 *   Backpacks/remaining classnames can be found here (TIP: Search page for "pack"): https://community.bistudio.com/wiki/Arma_3_CfgVehicles_EMPTY
 *
-*/ test
+*/
 class Clothing {
     class bruce {
         title = "STR_Shops_C_Bruce";
