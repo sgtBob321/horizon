@@ -801,6 +801,17 @@ class VirtualItems {
         icon = "images\icons\ico_cocaineProcessed.paa";
     };
 
+    class shrooms {
+        variable = "shrooms";
+        displayName = "STR_Item_Shrooms";
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = 8000;
+        illegal = true;
+        edible = -1;
+        icon = "images\icons\shroom.paa";
+    };
+
     //Drink
     class redgull {
         variable = "redgull";
