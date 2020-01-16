@@ -6,7 +6,7 @@
 *            in any combination. For example:
 *                "call life_coplevel && license_civ_someLicense"
 *            This will also let you call any other function.
-*/ test
+*/
 class VirtualShops {
     //Virtual Shops
     class market {
@@ -1458,4 +1458,48 @@ class VirtualItems {
 		edible = -1;
 		icon = "images\icons\craft\gunpowder.paa";
 	};  //craftend
+
+  class windows {
+    variable = "windows";
+    displayName = "STR_Item_window";
+    weight = 3;
+    buyPrice = 2000;
+    sellPrice = 6000;
+    illegal = false;
+    edible = -1;
+    icon = "images\icons\craft\car_window.paa";
+  };  //craftend
+
+  class engine {
+    variable = "engine";
+    displayName = "STR_Item_engine";
+    weight = 5;
+    buyPrice = 5000;
+    sellPrice = 9000;
+    illegal = false;
+    edible = -1;
+    icon = "images\icons\craft\engine.paa";
+  };  //craftend
+
+  class brakes {
+    variable = "brakes";
+    displayName = "STR_Item_brakes";
+    weight = 2;
+    buyPrice = 3000;
+    sellPrice = 5000;
+    illegal = false;
+    edible = -1;
+    icon = "images\icons\craft\brakes.paa";
+  };  //craftend
+
+  class wheels {
+    variable = "wheels";
+    displayName = "STR_Item_wheel";
+    weight = 4;
+    buyPrice = 3000;
+    sellPrice = 4000;
+    illegal = false;
+    edible = -1;
+    icon = "images\icons\craft\wheels.paa";
+  };  //craftend
 };
