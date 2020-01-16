@@ -240,14 +240,6 @@ Example 2:
             zoneSize = 30;
         };
 
-        class uranium {
-            amount = 3;
-            zones[] = { "uranium_1"};
-            item = "pickaxe";
-            mined[] = { "uranium" };
-            zoneSize = 30;
-        };
-
 		class platinum_uncut {
             amount = 2;
             zones[] = { "platinum_mine" };
