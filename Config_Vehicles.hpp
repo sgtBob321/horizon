@@ -58,7 +58,7 @@ class CarShops {
         conditions = "";
         vehicles[] = {
             //sports
-			{ "d3s_BMW_S_1000_RR", "" }, 	
+			{ "d3s_BMW_S_1000_RR", "" },
 			{ "d3s_Ducati_Monster_1200_S", "" },
 			{ "d3s_Kawasaki_Ninja_H2R", "" },
 			{ "d3s_KTM_1290_Super_Duke", "" },
@@ -152,12 +152,12 @@ class CarShops {
 			{ "d3s_200_VX_16", "" }
         };
     };
-	
+
 	class super_car {
         side = "civ";
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         vehicles[] = {
-			{ "d3s_eb110_19", "" },  
+			{ "d3s_eb110_19", "" },
 			{ "d3s_voiture_19", "" },
 			{ "d3s_599GTO_12", "" },
 			{ "d3s_LaFerrari_14", "" },
@@ -201,7 +201,7 @@ class CarShops {
             { "d3s_kraz_6316", "" },
             { "d3s_next", "" },
             { "d3s_actros_14_giga", "" },
-            { "d3s_actros_14", "" }          
+            { "d3s_actros_14", "" }
         };
     };
 
@@ -640,63 +640,63 @@ class LifeCfgVehicles {
       price = 35000;
       textures[] = {};
     };
-	
+
 	class RHS_Ural_Open_Civ_01 {
       vItemSpace = 145;
       conditions = "";
       price = 35000;
       textures[] = {};
     };
-	
+
 	class RHS_Ural_Civ_03 {
       vItemSpace = 145;
       conditions = "";
       price = 35000;
       textures[] = {};
     };
-	
+
 	class RHS_Ural_Civ_02 {
       vItemSpace = 145;
       conditions = "";
       price = 35000;
       textures[] = {};
     };
-	
+
 	class d3s_zil_130_05 {
       vItemSpace = 200;
       conditions = "";
       price = 75000;
       textures[] = {};
     };
-	
+
 	class d3s_zil_130_02 {
       vItemSpace = 200;
       conditions = "";
       price = 62000;
       textures[] = {};
     };
-	
+
 	class d3s_zil_130_03 {
       vItemSpace = 100;
       conditions = "";
       price = 35000;
       textures[] = {};
     };
-	
+
 	class d3s_kamaz_2 {
       vItemSpace = 450;
       conditions = "";
       price = 95000;
       textures[] = {};
     };
-	
+
 	class d3s_kamaz_4350_tent {
       vItemSpace = 450;
       conditions = "";
       price = 95000;
       textures[] = {};
     };
-	
+
 	class d3s_kraz_6316 {
       vItemSpace = 750;
       conditions = "";
@@ -710,21 +710,21 @@ class LifeCfgVehicles {
       price = 65000;
       textures[] = {};
     };
-	
+
 	class d3s_actros_14_giga {
       vItemSpace = 1000;
       conditions = "";
       price = 350000;
       textures[] = {};
     };
-	
+
 	class d3s_actros_14 {
       vItemSpace = 1000;
       conditions = "";
       price = 350000;
       textures[] = {};
     };
-  
+
 
 //planes
 
@@ -808,7 +808,7 @@ class Sab_737 {
   class rhsusf_CH53E_USMC {
       vItemSpace = 2500;
       conditions = "";
-      price = 120000;
+      price = 180000;
       textures[] = {};
   };
 
@@ -841,9 +841,9 @@ class Sab_737 {
   };
 
   class RHS_Mi8amt_civilian {
-      vItemSpace = -1;
+      vItemSpace = 2000;
       conditions = "";
-      price = -1;
+      price = 150000;
       textures[] = {};
   };
 
