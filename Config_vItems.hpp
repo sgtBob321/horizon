@@ -1529,14 +1529,14 @@ class VirtualItems {
   };
 
   class uranium {
-        variable = "uranium";
-        displayName = "STR_Item_uranium";
-        weight = 4;
-        buyPrice = -1;
-        sellPrice = 3800;
-        illegal = true;
-        edible = -1;
-        icon = "images\icons\ico_uraniumP.paa";
+      variable = "uranium";
+      displayName = "STR_Item_uranium";
+      weight = 4;
+      buyPrice = -1;
+      sellPrice = 12000;
+      illegal = true;
+      edible = -1;
+      icon = "images\icons\ico_uraniumP.paa";
     };
 
   class steelpipe {
