@@ -1481,7 +1481,7 @@ class VirtualItems {
     variable = "engine";
     displayName = "STR_Item_engine";
     weight = 5;
-    buyPrice = 5000;
+    buyPrice = 3000;
     sellPrice = 3000;
     illegal = false;
     edible = -1;
@@ -1503,7 +1503,7 @@ class VirtualItems {
     variable = "wheels";
     displayName = "STR_Item_wheel";
     weight = 4;
-    buyPrice = 3000;
+    buyPrice = 2000;
     sellPrice = 1000;
     illegal = false;
     edible = -1;
