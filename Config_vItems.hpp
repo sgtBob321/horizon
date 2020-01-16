@@ -51,11 +51,11 @@ class VirtualShops {
         items[] = { "waterBottle", "cprKit", "codeCracker", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "blastingcharge", "zipties", "blindfold" };
     };
 
-    class vehicle_shop
-         name = "STR_Shops_Vehicle_Parts";
-         side = "civ";
-         conditions = "";
-         items[] = { "windows", "engine", "brakes", "wheels" };
+    class drugdealer {
+        name = "STR_Shops_DrugDealer";
+        side = "civ";
+        conditions = "";
+        items[] = { "cocaine_processed", "heroin_processed", "marijuana", "LSD", "ecstacy", "shrooms" };
     };
 
 	 class bounty {
@@ -84,13 +84,6 @@ class VirtualShops {
         side = "";
         conditions = "";
         items[] = { "coffee", "donuts", "redgull", "toolkit", "fuelFull"};
-    };
-
-    class drugdealer {
-        name = "STR_Shops_DrugDealer";
-        side = "civ";
-        conditions = "";
-        items[] = { "cocaine_processed", "heroin_processed", "marijuana", "LSD", "ecstacy" };
     };
 
     class oil {
