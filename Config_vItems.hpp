@@ -121,6 +121,13 @@ class VirtualShops {
         items[] = { "iron_refined", "copper_refined" };
     };
 
+    class uranium {
+        name = "STR_Shops_uranium";
+        side = "civ";
+        conditions = "";
+        items[] = {"uranium" };
+    };
+
     class diamond {
         name = "STR_Shops_Diamond";
         side = "civ";
@@ -1521,6 +1528,17 @@ class VirtualItems {
     icon = "images\icons\craft\wheels.paa";
   };
 
+  class uranium {
+        variable = "uranium";
+        displayName = "STR_Item_uranium";
+        weight = 4;
+        buyPrice = -1;
+        sellPrice = 3800;
+        illegal = true;
+        edible = -1;
+        icon = "images\icons\ico_uraniumP.paa";
+    };
+
   class steelpipe {
     variable = "steel_pipe";
     displayName = "STR_Item_Steel_Pipe";
@@ -1531,3 +1549,4 @@ class VirtualItems {
     edible = -1;
     icon = "";
   };  //craftend
+};
