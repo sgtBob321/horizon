@@ -361,23 +361,30 @@ class Clothing {
 			{ "TRYK_U_B_PCUGs", "", 3800, "" },
 			{ "TRYK_U_B_PCUGs_BLK", "", 3800, "" },
 			{ "TRYK_U_Bts_PCUODs", "", 3800, "" },
-			{ "TRYK_U_B_PCUHs", "", 3800, "" }
+			{ "TRYK_U_B_PCUHs", "", 3800, "" },
+      { "NSWDG_G3_AOR1_TS_Tan", "", 3800, ""},
+      { "TRYK_U_B_ARO1_CBR_CombatUniform", "", 3800, ""}
         };
         headgear[] = {
             { "NONE", "Remove", 0, "" },
+            { "NSWDG_Bball_E_AOR1", "", 1000, ""},
             { "H_HelmetB_light", "", 4000, "" },
             { "H_HelmetB_plain_mcamo", "", 5000, "" },
             { "H_HelmetB_plain_blk", "", 5000, "" },
             { "H_HelmetSpecB", "", 6000, "" },
             { "H_HelmetSpecB_blk", "", 6000, "" },
             { "H_HelmetSpecO_blk", "", 6000, "" },
-            { "H_HelmetO_ViperSP_ghex_F", "Prototype Helmet", 400000, "" }
+            { "H_HelmetO_ViperSP_ghex_F", "Prototype Helmet", 50000, "" }
         };
         goggles[] = {
             { "NONE", "Remove", 0, "" }
+            { "G_Aviator", "", 1000, ""}
         };
         vests[] = {
-			{ "NONE", "Remove", 0, "" }
+			{ "NONE", "Remove", 0, "" },
+      { "LBT_7_AOR1", "", 5000, ""},
+      { "LBT_1_AOR1", "", 5000, ""},
+      { "LBT_3_AOR1", "", 5000, ""}
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },
@@ -405,7 +412,8 @@ class Clothing {
             { "B_Carryall_mcamo", "", 7500, "" },
             { "B_Carryall_oli", "", 7500, "" },
             { "B_Carryall_khk", "", 7500, "" },
-            { "B_Carryall_Base", "", 7500, "" }
+            { "B_Carryall_Base", "", 7500, "" },
+            { "KIT_BAG_MC", "", 3500, ""}
         };
     };
 
