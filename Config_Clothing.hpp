@@ -548,7 +548,8 @@ class Clothing {
 			{ "TRYK_U_B_PCUGs", "", 3800, "" },
 			{ "TRYK_U_B_PCUGs_BLK", "", 3800, "" },
 			{ "TRYK_U_Bts_PCUODs", "", 3800, "" },
-			{ "TRYK_U_B_PCUHs", "", 3800, "" }
+			{ "TRYK_U_B_PCUHs", "", 3800, "" },
+      { "U_B_CBRN_Suit_01_MTP_F", "", 5000, ""}
         };
         headgear[] = {
             { "NONE", "Remove", 0, "" },
@@ -586,7 +587,8 @@ class Clothing {
 			{ "H_Shemag_olive", "", 650, "" },
 			{ "H_Shemag_olive_hs", "", 650, "" },
 			{ "H_HelmetIA", "", 2000, "" },
-			{ "H_Helmet_Skate", "", 2000, "" }
+			{ "H_Helmet_Skate", "", 2000, "" },
+      { "NSWDG_Helmet_FastXP_HTrain_MC", "", 5000, ""}
         };
         goggles[] = {
             { "NONE", "Remove", 0, "" },
@@ -611,7 +613,8 @@ class Clothing {
             { "G_Bandanna_shades", "", 150, "" },
             { "G_Bandanna_sport", "", 150, "" },
             { "G_Bandanna_tan", "", 150, "" },
-			{ "G_Diving", "", 500, "" }
+			{ "G_Diving", "", 500, "" },
+      { "G_AirPurifyingRespirator_02_olive_F", "", 500, ""}
         };
         vests[] = {
             { "NONE", "Remove", 0, "" },
@@ -640,7 +643,8 @@ class Clothing {
 			{ "TRYK_BAPLSK", "", 3800, "" },
 			{ "TRYK_V_harnes_blk_L", "", 3800, "" },
 			{ "TRYK_V_harnes_od_L", "", 3800, "" },
-			{ "TRYK_V_harnes_TAN_L", "", 3800, "" }
+			{ "TRYK_V_harnes_TAN_L", "", 3800, "" },
+      { "LBT_6_MC", "", 5000, ""}
         };
         backpacks[] = {
             { "NONE", "Remove", 0, "" },
@@ -669,6 +673,7 @@ class Clothing {
             { "B_Carryall_oli", "", 7500, "" },
             { "B_Carryall_khk", "", 7500, "" },
             { "B_Carryall_Base", "", 7500, "" },
+            { "B_SCBA_01_F", "", 5000, ""}
 			// {"B_Bergen_tna_F", "", 8000, ""}
         };
     };
