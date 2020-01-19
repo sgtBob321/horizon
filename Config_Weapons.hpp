@@ -30,7 +30,7 @@ class WeaponShops {
             { "RH_m9c", "", 6500, 500, "" },
             { "RH_python", "", 6500, 500, "" },
             { "RH_cz75", "", 6500, 500, "" },
-            { "RH_fnp45", "", 6500, 500, "" }, 
+            { "RH_fnp45", "", 6500, 500, "" },
 			{ "RH_gsh18", "", 6500, 500, "" },
 			{ "RH_mp412", "", 6500, 500, "" },
 			{ "RH_tt33", "", 6500, 500, "" },
@@ -49,7 +49,7 @@ class WeaponShops {
             { "optic_ACO_grn_smg", "", 2500, 1250, "" }
         };
     };
-	
+
 	class bounty_gun {
         name = "Gun Shop";
         side = "civ";
@@ -65,7 +65,7 @@ class WeaponShops {
             { "CSW_M26C", "", 200, 500, "" },
             { "rhsusf_weap_glock17g4", "", 200, 100, "" },
 			{ "hlc_rifle_M4", "", 200, 100, "" }
-			
+
         };
         mags[] = {
             { "hlc_30rnd_556x45_EPR", "", 200, 100, "" },
@@ -154,17 +154,27 @@ class WeaponShops {
             { "hgun_Rook40_F", "", 1500, 750, "" },
             { "hgun_Pistol_heavy_02_F", "", 2500, 1250, "" },
             { "hgun_ACPC2_F", "", 4500, 2250, "" },
-            { "hgun_PDW2000_F", "", 9500, 4750, "" }
+            { "hgun_PDW2000_F", "", 9500, 4750, "" },
+            { "hlc_rifle_BAB", "",  15000, 10000, "" },
+            { "rhs_weap_aks74u", "",  15000, 10000, "" },
+            { "rhsusf_weap_MP7A2", "",  10000, 10000, "" },
+            { "hlc_rifle_SG550Sniper_RIS", "",  20000, 15000, "" }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 125, 60, "" },
             { "6Rnd_45ACP_Cylinder", "", 150, 75, "" },
             { "9Rnd_45ACP_Mag", "", 200, 100, "" },
-            { "30Rnd_9x21_Mag", "", 250, 125, "" }
+            { "30Rnd_9x21_Mag", "", 250, 125, "" },
+            { "hlc_30rnd_556x45_EPR", "", 250, 100, ""},
+            { ""rhs_30Rnd_545x39_7N6M_AK";", "", 250, 100, ""},
+            { ""hlc_30Rnd_556x45_EPR_sg550";", "", 250, 100, ""},
+            { "rhsusf_mag_40Rnd_46x30_FMJ", "", 250, 100, ""}
         };
         accs[] = {
             { "acc_flashlight_pistol", "", 500, 250, "" },//Pistol Flashlight
-            { "optic_ACO_grn_smg", "", 950, 475, "" }
+            { "optic_ACO_grn_smg", "", 950, 475, "" },
+            { "rhsusf_acc_ACOG_RMR", "", 1000, 500, "" },
+            { "bipod_02_F_blk", "", 700, 300, "" }
         };
     };
 
@@ -211,7 +221,7 @@ class WeaponShops {
         mags[] = {};
         accs[] = {};
     };
-	
+
 	//Border Force
 	class cop_basic {
         name = "Cop Shop";
