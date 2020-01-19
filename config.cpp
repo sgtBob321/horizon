@@ -139,18 +139,34 @@ class maverick_weaponshop_cfg {
 					//--- item classname, price, condition, custom display name
 					{"hgun_Rook40_F", 15000, "true", ""},
 					{"hgun_Pistol_heavy_02_F", 15000, "true", ""},
-					{"hgun_ACPC2_F", 15000, "true", ""}
+					{"hgun_ACPC2_F", 15000, "true", ""},
+					{ "hlc_rifle_BAB", "",  15000, 10000, "" },
+					{ "rhs_weap_aks74u", "",  15000, 10000, "" },
+					{ "rhsusf_weap_MP7A2", "",  10000, 10000, "" },
+					{ "hlc_rifle_SG550Sniper_RIS", "",  20000, 15000, "" },
+					{ "RH_Deagleg", "",  5000, 3000, "" },
+					{ "RH_g18", "",  5000, 3000, "" },
+					{ "RH_tec9", "",  5000, 3000, "" }
 				};
 			magazines[] = {
 					{"16Rnd_9x21_Mag", 10, "true", ""},
 					{"6Rnd_45ACP_Cylinder", 10, "true", ""},
 					{"9Rnd_45ACP_Mag", 10, "true", ""},
-					{"30Rnd_9x21_Mag", 10, "true", ""}
+					{"30Rnd_9x21_Mag", 10, "true", ""},
+					{ "hlc_30rnd_556x45_EPR", "", 250, 100, ""},
+					{ ""rhs_30Rnd_545x39_7N6M_AK";", "", 250, 100, ""},
+					{ ""hlc_30Rnd_556x45_EPR_sg550";", "", 250, 100, ""},
+					{ "rhsusf_mag_40Rnd_46x30_FMJ", "", 250, 100, ""},
+					{ "RH_7Rnd_50_AE", "", 250, 100, ""},
+					{ "RH_33Rnd_9x19_g18", "", 250, 100, ""},
+					{ "RH_32Rnd_9x19_tec", "", 250, 100, ""}
 				};
 			attachments[] = {
 					{"optic_ACO_grn_smg", 50, "", "Test Scope"},
 					{"optic_Arco_blk_F", 50, "", "Test Scope"},
-					{"optic_ERCO_blk_F", 50, "", "Test Scope"}
+					{"optic_ERCO_blk_F", 50, "", "Test Scope"},
+					{ "rhsusf_acc_ACOG_RMR", "", 1000, 500, "" },
+					{ "bipod_02_F_blk", "", 700, 300, "" }
 				};
 			items[] = {
 					{"tf_microdagr", 50, "true", ""},
@@ -426,50 +442,57 @@ class maverick_weaponshop_cfg {
 			weapons[] = {
 				//--- item classname, price, condition, custom display name
 				{"CSW_M26C", 0, "call life_coplevel >= 1", "M26C Taser"},
-				{"rhsusf_weap_m9", 2500, "call life_coplevel >= 6", ""},
-				{"hlc_smg_mp5a3", 6000, "call life_coplevel >= 1", "MP5"},
-				{"hlc_rifle_Colt727_GL", 22000, "call life_coplevel >= 6", "M416C"},
-				{"hlc_rifle_Colt727", 18000, "call life_coplevel >= 6", ""},
-				{"rhs_weap_m249_light_S", 4000, "call life_coplevel >= 6", ""},
-				{"rhs_weap_m72a7", 32000, "call life_coplevel >= 6", ""},
-				{"rhs_weap_fim92", 38000, "call life_coplevel >= 6", ""},
-				{"rhs_weap_fgm148", 45000, "call life_coplevel >= 6", ""}
+				{"RH_g19", 3000, "call life_coplevel >= 1", "Glock"},
+				{"rhs_weap_m4a1_carryhandle_mstock_grip", 12500, "call life_coplevel >= 6", "M4A1"},
+				{"CSW_M870", 12500, "call life_coplevel >= 6", "ShotGun"},
+				{"rhs_weap_m4a1_m320", 12500, "call life_coplevel >= 6", "M4A1 Ugl"},
+				{"rhs_weap_m249_pip_ris", 12500, "call life_coplevel >= 6", ""},
+				{"hlc_rifle_SG550Sniper_RIS", 12500, "call life_coplevel >= 6", "Sniper"},
+				{"rhs_weap_m72a7", 12500, "call life_coplevel >= 6", "Single Use"},
+				{"rhs_weap_maaws", 12500, "call life_coplevel >= 6", "Multi Use"},
+				{"rhs_weap_fgm148", 12500, "call life_coplevel >= 6", "AT"},
+				{"rhs_weap_fim92", 12500, "call life_coplevel >= 6", "AA"}
 			};
 
 			magazines[] = {
-				{"CSW_Taser_Probe_Mag", 0, "call life_coplevel >= 1", ""},				
-				{"hlc_30Rnd_9x19_B_MP5", 50, "call life_coplevel >= 1", ""},
-				{"CSW_20Rnd_57x28_SS198", 00, "call life_coplevel >= 3", ""},
-				{"CSW_20Rnd_57x28_Sb193", 50, "call life_coplevel >= 3", ""},
-				{"hlc_30rnd_556x45_EPR", 50, "call life_coplevel >= 3", ""},
-				{"rhsusf_100Rnd_762x51_m61_ap", 50, "call life_coplevel >= 3", ""},
-				{"rhsusf_5Rnd_300winmag_xm2010", 50, "call life_coplevel >= 3", ""},
-				{"UGL_FlareGreen_F", 50, "call life_coplevel >= 3", ""},
-				{"UGL_FlareCIR_F", 50, "call life_coplevel >= 3", ""},
-				{"1Rnd_SmokeRed_Grenade_shell", 50, "call life_coplevel >= 3", ""},
-				{"rhs_mag_m4009", 50, "call life_coplevel >= 3", ""},
-				{"rhs_mag_m576", 50, "call life_coplevel >= 3", ""},
-				{"rhs_fim92_mag", 15000, "call life_coplevel >= 3", ""},
-				{"rhs_fgm148_magazine_AT", 15000, "call life_coplevel >= 3", ""},
-				{"rhsusf_mag_15Rnd_9x19_JHP", 50, "call life_coplevel >= 3", ""}
+				{"CSW_Taser_Probe_Mag", 0, "call life_coplevel >= 1", ""},
+				{"RH_17Rnd_9x19_g17", 50, "call life_coplevel >= 1", ""},
+				{"CSW_M870_8Rnd_buck", 50, "call life_coplevel >= 1", ""},
+				{"CSW_M870_8Rnd_slug", 50, "call life_coplevel >= 1", ""},
+				{"CSW_M870_8Rnd_stun", 50, "call life_coplevel >= 1", ""},
+				{"rhs_mag_m4009", 50, "call life_coplevel >= 1", ""},
+				{"rhs_mag_m576", 50, "call life_coplevel >= 1", ""},
+				{"rhs_mag_m662_red", 50, "call life_coplevel >= 1", ""},
+				{"rhs_mag_m713_Red", 50, "call life_coplevel >= 1", ""},
+				{"rhs_mag_m714_White", 50, "call life_coplevel >= 1", ""},
+				{"rhs_mag_m715_Green", 50, "call life_coplevel >= 1", ""},
+				{"rhs_mag_30Rnd_556x45_M855_Stanag_Pull", 50, "call life_coplevel >= 1", ""},
+				{"hlc_30Rnd_556x45_EPR_sg550", 50, "call life_coplevel >= 1", ""},
+				{"rhsusf_200rnd_556x45_mixed_box", 50, "call life_coplevel >= 1", ""},
+				{"hlc_50rnd_556x45_M", 50, "call life_coplevel >= 1", "MG Only"},
+				{"rhsusf_100Rnd_556x45_mixed_soft_pouch", 50, "call life_coplevel >= 1", ""},
+				{"rhs_mag_maaws_HE", 50, "call life_coplevel >= 1", ""},
+				{"rhs_mag_maaws_HEAT", 50, "call life_coplevel >= 1", ""},
+				{"rhs_fgm148_magazine_AT", 50, "call life_coplevel >= 1", ""},
+				{"rhs_fim92_mag", 50, "call life_coplevel >= 1", ""}
 			};
 
 			attachments[] = {
-				{"optic_Hamr", 0, "call life_coplevel >= 6", "Acog"},
-				{"CSW_FN57_silencer2", 0, "call life_coplevel >= 6", ""},
-				{"optic_LRPS", 0, "call life_coplevel >= 6", ""},
-				{"rhsusf_acc_eotech_552", 0, "call life_coplevel >= 6", ""},
-				{"rhsusf_acc_premier_mrds", 0, "call life_coplevel >= 6", ""},
-				{"rhsusf_acc_ACOG_MDO", 0, "call life_coplevel >= 6", ""},
-				{"rhsusf_acc_su230a_mrds", 0, "call life_coplevel >= 6", ""},
-				{"rhsusf_acc_grip4_bipod", 0, "call life_coplevel >= 6", ""},
-				{"HLC_optic_DocterR", 0, "call life_coplevel >= 6", ""}
+				{"RH_M6X", 0, "call life_coplevel >= 1", "Glock Flashlight"},
+				{"rhsusf_acc_grip1", 0, "call life_coplevel >= 1", "GripPod"},
+				{"hlc_optic_ATACR_Offset", 0, "call life_coplevel >= 1", "Standerd Optic"},
+				{"CSW_M870_flashlight_glare", 0, "call life_coplevel >= 1", "ShotGun Light"},
+				{"rhsusf_acc_eotech_552", 0, "call life_coplevel >= 1", "ShotGun Sight"},
+				{"rhsusf_acc_M952V", 0, "call life_coplevel >= 6", "M4A1 Light"},
+				{"rhsusf_acc_rotex5_grey", 0, "call life_coplevel >= 6", "Sniper Only"},
+				{"hlc_optic_LeupoldM3A", 0, "call life_coplevel >= 6", "Sniper Sight"},
+				{"rhs_optic_maaws", 0, "call life_coplevel >= 6", ""}
 			};
 
 			items[] = {
 				{"tf_microdagr", 100, "true", ""},
 				{"tf_anprc152_1", 100, "true", ""},
-				{"Binocular", 100, "true", ""},
+				{"Rangefinder", 100, "true", ""},
 				{"ItemMap", 100, "true", ""},
 				{"ItemGPS", 100, "true", ""},
 				{"ItemCompass", 100, "true", ""},
@@ -477,8 +500,12 @@ class maverick_weaponshop_cfg {
 				{"rhs_mag_an_m8hc", 0, "call life_coplevel >= 1", ""},
 				{"rhs_mag_mk84", 0, "call life_coplevel >= 1", ""},
 				{"rhs_mag_m18_green", 0, "call life_coplevel >= 1", ""},
+				{"rhs_mag_m18_purple", 0, "call life_coplevel >= 1", ""},
 				{"rhs_mag_m18_red", 0, "call life_coplevel >= 1", ""},
+				{"rhs_mag_m18_yellow", 0, "call life_coplevel >= 1", ""},
+				{"B_IR_Grenade", 0, "call life_coplevel >= 1", ""},
 				{"rhs_mag_mk3a2", 0, "call life_coplevel >= 1", ""},
+				{"FirstAidKit", 100, "true", ""},
 				{"TRYK_balaclava_BLACK_NV", 100, "true", ""},
 				{"NVGoggles", 100, "true", ""} //--- Clothing can also be sold but isn't guaranteed to be previewed - just make sure override checkbox is used to override clothing on player
 			};
