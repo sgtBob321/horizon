@@ -344,7 +344,9 @@ class CarShops {
             { "rhsusf_m1025_w_m2", "" },
             { "I_G_Offroad_01_AT_F", "" },
             { "rhs_uh1h_hidf", "" },
-            { "RHS_Mi8mt_vvs", "" }
+            { "RHS_Mi8mt_vvs", "" },
+            { "d3s_insurgent_gtaV", ""},
+            { "d3s_kuruma_gtaV", ""}
         };
     };
 
@@ -1193,6 +1195,20 @@ class Sab_737 {
       textures[] = {};
   };
 
+  class d3s_insurgent_gtaV {
+      vItemSpace = 200;
+      conditions = "";
+      price = 100000;
+      textures[] = {};
+  };
+
+  class d3s_kuruma_gtaV {
+      vItemSpace = 200;
+      conditions = "";
+      price = 150000;
+      textures[] = {};
+  };
+
   class RHS_Mi8mt_vvs {
       vItemSpace = 180;
       conditions = "";
@@ -1203,7 +1219,7 @@ class Sab_737 {
   class I_G_Offroad_01_AT_F {
       vItemSpace = 75;
       conditions = "";
-      price = 280000;
+      price = 100000;
       textures[] = {};
   };
 
