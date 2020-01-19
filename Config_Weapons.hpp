@@ -158,7 +158,10 @@ class WeaponShops {
             { "hlc_rifle_BAB", "",  15000, 10000, "" },
             { "rhs_weap_aks74u", "",  15000, 10000, "" },
             { "rhsusf_weap_MP7A2", "",  10000, 10000, "" },
-            { "hlc_rifle_SG550Sniper_RIS", "",  20000, 15000, "" }
+            { "hlc_rifle_SG550Sniper_RIS", "",  20000, 15000, "" },
+            { "RH_Deagleg", "",  5000, 3000, "" },
+            { "RH_g18", "",  5000, 3000, "" },
+            { "RH_tec9", "",  5000, 3000, "" }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 125, 60, "" },
@@ -168,7 +171,10 @@ class WeaponShops {
             { "hlc_30rnd_556x45_EPR", "", 250, 100, ""},
             { ""rhs_30Rnd_545x39_7N6M_AK";", "", 250, 100, ""},
             { ""hlc_30Rnd_556x45_EPR_sg550";", "", 250, 100, ""},
-            { "rhsusf_mag_40Rnd_46x30_FMJ", "", 250, 100, ""}
+            { "rhsusf_mag_40Rnd_46x30_FMJ", "", 250, 100, ""},
+            { "RH_7Rnd_50_AE", "", 250, 100, ""},
+            { "RH_33Rnd_9x19_g18", "", 250, 100, ""},
+            { "RH_32Rnd_9x19_tec", "", 250, 100, ""}
         };
         accs[] = {
             { "acc_flashlight_pistol", "", 500, 250, "" },//Pistol Flashlight
