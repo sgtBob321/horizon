@@ -618,7 +618,6 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove", 0, "" },
-			{ "V_HarnessOGL_gry", "suicide vest", 250000, "" },
 			{ "TAC_CR4_CY", "", 3800, "" },
 			{ "TAC_CR4_OD", "", 3800, "" },
 			{ "TAC_CR4_RG", "", 3800, "" },
