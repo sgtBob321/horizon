@@ -446,39 +446,58 @@ class Clothing {
         };
     };
 
-	class unclothing {
-        title = "STR_MAR_UN_Clothing_Shop";
-        conditions = "";
-        side = "cop";
-        uniforms[] = {
-            { "NONE", "Remove", 0, "" },
-            { "sab_UN_Officer_Clothing", "UN Uniform", 0, "" },
-			{ "TRYK_OVERALL_SAGE_BLKboots", "Pilot Uniform", 0, "" },
-			{ "rhs_uniform_acu_oefcp", "Patrol", 0, "" }
-        };
-        headgear[] = {
-            { "NONE", "Remove", 0, "" },
-            { "sab_UN_Helmet", "Helmet", 0, "" }
-        };
-        goggles[] = {
-            { "NONE", "Remove", 0, "" },
-            { "TRYK_shoulder_armor_BK", "Special", 0, "" },
-            { "G_Aviator", "", 0, "" }
-        };
-        vests[] = {
-            { "NONE", "Remove", 0, "" },
-			{ "sab_UN_Vest", "UN Vest 1", 0, "" },
-			{ "TRYK_Hrp_vest_od", "Pilot", 0, "" },
-			{ "LBT_3_MC", "", 0, "Patrol" },
-			{ "LBT_4_Blk", "", 0, "Special" }
-        };
-        backpacks[] = {
-            { "NONE", "Remove", 0, "" },
-            { "TAC_BP_Butt2_KhakiM", "Patrol", 0, "" },
-            { "tf_rt1523g", "Radio", 0, "" },
-            { "TRYK_B_Kitbag_Base", "", 0, "" }
-        };
-    };
+    class unclothing {
+          title = "STR_MAR_UN_Clothing_Shop";
+          conditions = "";
+          side = "cop";
+          uniforms[] = {
+              { "NONE", "Remove", 0, "" },
+              { "sab_UN_Officer_Clothing", "UN Uniform", 0, "" },
+  			{ "rhs_uniform_acu_ucp", "StanderdUCP", 0, "" },
+        { "rhs_uniform_acu_oefcp", "Patrol", 0, "" },
+        { "TRYK_HRP_UCP", "Pilot", 0, "" }
+          };
+          headgear[] = {
+              { "NONE", "Remove", 0, "" },
+              { "Smill_B_H_UN", "", 0, "Standerd" },
+              { "sab_UN_Helmet", "", 0, "" },
+              { "rhsusf_hgu56p_visor_white", "", 0, "" }
+          };
+          goggles[] = {
+              { "NONE", "Remove", 0, "" },
+              { "NSWDG_GlovesG_T", "", 0, "Gloves UCP" },
+              { "NSWDG_GlovesMC_T", "", 0, "Gloves Mtp" },
+              { "NSWDG_FaceMask_4_White", "", 0, "" },
+              { "NSWDG_FaceMask_4_MC", "", 0, "" },
+              { "TRYK_shoulder_armor_BK", "", 0, "" },
+              { "rhs_googles_black", "", 0, "" },
+              { "rhs_ess_black", "", 0, "" },
+              { "NSWDG_FaceMask_5_MC", "", 0, "" },
+              { "NSWDG_FaceMask_5_White", "", 0, "" }
+          };
+          vests[] = {
+              { "NONE", "Remove", 0, "" },
+  			{ "LBT_5_Blk", "", 0, "" },
+  			{ "LBT_8_Blk", "", 0, "" },
+  			{ "LBT_1_Blk", "", 0, "" },
+        { "LBT_7_Blk", "", 0, "" },
+        { "LBT_3_Blk", "", 0, "" },
+  			{ "LBT_4_Blk", "", 0, "" },
+        { "LBT_3_MC", "", 0, "" },
+        { "LBT_7_MC", "", 0, "" },
+        { "LBT_1_MC", "", 0, "" },
+        { "LBT_8_MC", "", 0, "" },
+        { "LBT_5_MC", "", 0, "" },
+        { "TRYK_Hrp_vest_ucp", "", 0, "" }
+          };
+          backpacks[] = {
+              { "NONE", "Remove", 0, "" },
+              { "TAC_LBT_LEGAB2_BK", "Standerd", 0, "" },
+              { "TAC_LBT_LEGAB2_CY", "Patrol", 0, "" },
+              { "tf_rt1523g_rhs", "Radio", 0, "" },
+              { "rhsusf_assault_eagleaiii_ucp", "Patrol", 0, "" }
+          };
+      };
 
     class reb {
         title = "STR_Shops_C_Rebel";
