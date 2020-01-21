@@ -185,23 +185,10 @@ class maverick_weaponshop_cfg {
 			maxCart = 20; 			//--- Max Amount of Items in Shopping Cart
 
 			weapons[] = {
-					//--- item classname, price, condition, custom display name
-					{"CSW_M26C", 100, "call life_mediclevel >= 2", ""},
-					{"hlc_smg_mp5a4", 5000, "call life_mediclevel >= 2", ""},
-					{"hlc_rifle_mk18mod0", 1500, "call life_mediclevel >= 2", ""}
 				};
 			magazines[] = {
-					{"CSW_Taser_Probe_Mag", 10, "true", "call life_mediclevel >= 2"},
-					{"hlc_30Rnd_9x19_B_MP5", 10, "true", "call life_mediclevel >= 2"},
-					{"hlc_30rnd_556x45_EPR", 10, "true", "call life_mediclevel >= 2"}
 				};
 			attachments[] = {
-					{"hlc_optic_HensoldtZO_lo_Docter_2D", 50, "call life_mediclevel >= 2", "Scope"},
-					{"hlc_muzzle_Agendasix", 50, "call life_mediclevel >= 2", ""},
-					{"hlc_acc_Surefiregrip", 50, "call life_mediclevel >= 2", ""},
-					{"HLC_optic_DocterR", 50, "call life_mediclevel >= 2", ""},
-					{"acc_flashlight", 50, "call life_mediclevel >= 2", "Flash Light"},
-					{"hlc_muzzle_556NATO_KAC", 50, "call life_mediclevel >= 2", "Muzzle"}
 				};
 
 			items[] = {
