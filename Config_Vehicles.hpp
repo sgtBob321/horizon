@@ -578,7 +578,6 @@ class LifeCfgVehicles {
 
   };
 
-
   class d3s_explorer_13 {
       vItemSpace = 50;
       conditions = "";
